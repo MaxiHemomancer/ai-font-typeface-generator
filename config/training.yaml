@@ -1,0 +1,10 @@
+corpus_dir: data/reference-fonts
+batch_size: 32
+lr: 2.0e-4
+epochs: 200
+model:
+  hidden_dim: 384
+  num_layers: 12
+  glyph_embed_dim: 192
+checkpoint_dir: models/checkpoints
+log
