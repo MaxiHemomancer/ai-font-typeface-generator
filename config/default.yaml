@@ -1,0 +1,14 @@
+run_name: demo-latin
+seed: 6767
+charset: latin-basic
+model:
+  family: diffusion
+  hidden_dim: 256
+  num_layers: 8
+  glyph_embed_dim: 128
+export:
+  formats: [otf, woff2, ufo]
+  units_per_em: 1000
+  family_name: AIFont
+  style_name: Regular
+output_dir: out
